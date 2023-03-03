@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Data</title>
+    <link rel="stylesheet" href="moviedata.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <video src="video2.mp4" type="video/mp4" autoplay loop muted></video>
+        <div class="text-box">
+            <h2>Movie Data</h2>
+        </div>
+    </div>
+
+
+    <div id="btn-position">
+        <button class="btn" id="Adventure" onclick="adventure()">Adventure</button>
+
+        <button class="btn" id="Comedy" onclick="comedy()">Comedy</button>
+
+        <button class="btn" id="Drama" onclick="drama()">Drama</button>
+
+        <button class="btn" id="Crime" onclick="crime()">Crime</button>
+    </div>
+
+    <div id="movieList"></div>
+
+
+    <script src="moviedata.js"></script>
+
+</body>
+
+</html>
